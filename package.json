@@ -1,0 +1,28 @@
+{
+  "name": "project-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "start:dev": "nodemon ./dist/index.js",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisweb89/project-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisweb89/project-starter/issues"
+  },
+  "homepage": "https://github.com/luisweb89/project-starter#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.1",
+    "typescript": "^3.7.5"
+  }
+}
